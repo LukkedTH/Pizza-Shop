@@ -56,6 +56,9 @@ const Custom = (props) => {
               <option value={option.value}>{option.label}</option>
             ))}
             </select>
+            <lable>
+            &nbsp;&nbsp;Start 2 $
+            </lable>
         </div>
         <br></br>
         <div>
@@ -91,8 +94,8 @@ const Custom = (props) => {
                         
                             <table align="center">
                             <tr>
-                                <th>Choose Meats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                                <th>&nbsp;&nbsp;Choose Non-Meats</th>
+                                <th>Choose Meats (2$)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                <th>&nbsp;&nbsp;Choose Non-Meats (1$)</th>
                             </tr>
                             <br></br>
                             <tr>
@@ -130,6 +133,9 @@ const Custom = (props) => {
                         </div>
 
                         <br></br>
+                        <br></br>
+                        <h2>$</h2>
+                        <br></br>
                         <div className="aa-prod-view-bottom">
                           <button
                             onClick={handleAddToCart}
@@ -145,19 +151,19 @@ const Custom = (props) => {
   // size
 const size = [
     {
-      label: "S",
+      label: "S (3$)",
       value: "S",
     },
     {
-      label: "M",
+      label: "M (6$)",
       value: "M",
     },
     {
-      label: "L",
+      label: "L (8$)",
       value: "L",
     },
     {
-      label: "XL",
+      label: "XL (10$)",
       value: "XL",
     },
   ];
